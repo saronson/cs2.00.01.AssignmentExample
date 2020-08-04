@@ -7,7 +7,7 @@ How to Edit
 You can edit this assignment in https://repl.it or use Bluej.  Instructions for both are below.
 
 Using either environment, when you commit and push the assignment, it will update your github repository.
-It will also autograde it using the TestMain program so you can see if it worked.
+It will also autograde it using the TestMain program so you can see if it worked.  You should see a green check mark on the github page it if succeeded.
 
 (You should always do commit and push together.  They are only useful in separate steps if you are working on a big project with multiple people.)
 
