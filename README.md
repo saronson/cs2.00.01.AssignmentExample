@@ -26,15 +26,10 @@ How to use with Bluej
 How to use with Repl.it
 ------------------------
 Go to your code repository in GitHub. Scroll down towards the bottom of the screen. 
-Click the Work in Repl.it button. It will take awhile to load.
-
-BUG ALERT: You will probably get an error page after the first click.  I have reported this bug.  
-To work around it, press the back button and press the Work in Repl.it button again.
-You still might need to wait awhile for it to load but it usually works on the second time.
-
+Click the Work in Repl.it button. 
 You can now edit your code in Repl.it. 
 Click the Run button to run your code. The black output screen will show the output that is run or will notify you of any errors.
 When you are done with your code, click on the "Version Control" tab on left side of your screen. 
-Write a few words describing what you changed and then click commit&push.
+Write a few words describing what you changed and then click the commit&push button.
 
 
