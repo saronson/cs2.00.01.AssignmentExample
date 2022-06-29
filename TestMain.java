@@ -17,6 +17,27 @@ public class TestMain
     TestMain test = new TestMain();
     test.testTest();
   }
+    public static boolean trace = true;
+    private static void failure(String str)
+    {
+        class Error extends RuntimeException{
+            public Error(String s) {
+                super(s);
+            }
+
+            @Override
+            public Throwable fillInStackTrace() {
+                return this;
+            }
+        }
+        if (!trace) {
+            System.out.println(str);
+            throw new Error(str);
+        } else {
+            fail(str);
+        }
+    }
+
     /**
      * Default constructor for test class TestMain
      */
